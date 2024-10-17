@@ -1,0 +1,52 @@
+.eachConversation {
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.eachConversation .chat-content {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    white-space: pre-line;
+}
+
+.eachConversation .chat-actions {
+    display: flex;
+    gap: 10px;
+    padding: 0 30px 0 0;
+    align-items: flex-start;
+    opacity: 0;
+    min-width:158px;
+}
+
+.eachConversation>div {
+    display: flex;
+}
+
+.type1 {
+    background: #40414f;
+}
+
+.chat-actions {
+    display: flex;
+}
+
+.chat-actions .btn {
+    height: max-content;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.eachConversation:hover .chat-actions{
+    
+    opacity: 1;
+}
+
+.chat-actions .btn:hover {
+    background: #65696d;
+}

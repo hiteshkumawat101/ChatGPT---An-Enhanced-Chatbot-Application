@@ -1,0 +1,45 @@
+.main-prompt {
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 80vw;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.main-prompt>div {
+    display: flex;
+    justify-content: center;
+    background: #40414f;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+
+.main-prompt>div>input {
+
+    border-radius: 15px;
+    width: 100%;
+    background: #40414f;
+    padding: 15px;
+    outline: none;
+    cursor: text;
+}
+
+.main-prompt .mic {
+    display: flex;
+    align-items: center;
+    padding: 0 2px;
+    cursor: pointer;
+
+}
+.main-prompt .mic > div{
+    padding: 10px;
+    transition-duration: 0.5s;
+    border-radius: 50px;
+}
+.main-prompt .mic > div:hover{
+    background: #5f5f6d;
+}
